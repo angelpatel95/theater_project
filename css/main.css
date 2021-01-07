@@ -1,0 +1,47 @@
+/*nav bar*/
+
+/* background image */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+      }
+
+.text_shows{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 5em;
+}
+   
+/* upcoming show times*/ 
+.show{
+    display:flex;
+    flex-direction: row;
+    border-bottom:2px grey solid;
+    align-content: center;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 0 20px 0;
+    flex-wrap:wrap;
+    margin: 0 10vw 0 10vw;
+}
+.show_title{
+    padding:0;
+    padding-left:5vw;
+    margin: 10vw 10vw 0vw 10vw;
+    border:1px solid black;
+    background-color: lightgray;
+}
+.button{
+    border:1px solid black;
+    background-color:goldenrod;
+    padding:10px
+}
+.button a{
+    color:white;
+    text-decoration:none;
+    font-size:2x;
+}
+
+/*footer (info, shows, and social)*/
